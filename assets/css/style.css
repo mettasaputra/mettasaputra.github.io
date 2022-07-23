@@ -1,25 +1,5 @@
 @charset "utf-8";
 
-/*	Copyright (c) 2021 marketify
-/*	Author: marketify
-/*	This file is made for CURRENT TEMPLATE
-
-01)	EDINA BASE
-02) EDINA MOBILE MENU
-03) EDINA SIDEBAR
-04) EDINA HERO
-05) EDINA ABOUT
-06) EDINA SERVICE
-07) EDINA PORTFOLIO
-08) EDINA TESTIMONIALS
-09) EDINA NEWS
-10) EDINA CONTACT
-11) EDINA MEDIA QUERIES (FOR SMALL DEVIVES)
-
-/*--------------------------------f-------------------*/
-/*	01) EDINA BASE
-/*---------------------------------------------------*/
-
 html {
 	overflow-x: hidden;
 	padding: 0px;
@@ -731,9 +711,6 @@ body.opened .tm_hero .extra{
 	font-weight: 600;
 	margin-bottom: 10px;
 }
-.tm_now .desc, .tm_now  ul{
-	margin-left:33px;
-}
 
 .tm_about .wrapper{
 	width: 100%;
@@ -1246,11 +1223,6 @@ body.opened .tm_hero .extra{
 	background-color: #fff;
 }
 
-
-/*---------------------------------------------------*/
-/*	10) EDINA CONTACT
-/*---------------------------------------------------*/
-
 .tm_contact{
 	width: 100%;
 	height: auto;
@@ -1259,54 +1231,7 @@ body.opened .tm_hero .extra{
 	background-color: #F9F9FC;
 	padding: 60px 0px;
 }
-.tm_contact .extra_info{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	padding-top: 60px;
-	margin-bottom: 30px;
-}
-.tm_contact .extra_info .wrapper{
-	margin: 0px 0px 0px -30px;
-	list-style-type: none;
-}
-.tm_contact .extra_info .wrapper > li{
-	margin: 0px 0px 30px 0px;
-	float: left;
-	width: 33.3333%;
-	padding-left: 30px;
-}
-.tm_contact .extra_info .wrapper > li .list_inner{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	position: relative;
-	background-color: #fff;
-	padding: 33px 35px 41px 35px;
-}
-.tm_contact .extra_info .in{
-	margin: 0px;
-	list-style-type: none;
-}
-.tm_contact .extra_info .in li{
-	margin: 0px 0px 8px 0px;
-	width: 100%;
-	float: left;
-}
-.tm_contact .extra_info .in li :last-child{
-	margin-bottom: 0px;
-}
-.tm_contact .extra_info h3{
-	font-size: 20px;
-	font-weight: 500;
-	margin-bottom: 10px;
-}
-.tm_contact .extra_info a{
-	text-decoration: none;
-	color: #7E7E7E;
-}
+
 .tm_contact .mainpart{
 	width: 100%;
 	height: auto;
@@ -1491,8 +1416,6 @@ body.opened .tm_hero .extra{
 	.tm_about .desc{max-width: 100%;}
 	.tm_about .rightpart{width: 100%;padding-left: 0px;}
 	.tm_about .experience{left: 50px;}
-	.tm_contact .extra_info .wrapper{margin: 0px;}
-	.tm_contact .extra_info .wrapper > li{width: 100%;padding-left: 0px;}
 	.tm_contact .mainpart{flex-direction: column;align-items: baseline;}
 	.tm_contact .mainpart .left{width: 100%;margin-right: 0px;margin-bottom: 50px;}
 	.tm_contact .right{width: 100%;margin-left: 0px;}
@@ -1526,7 +1449,6 @@ body.opened .tm_hero .extra{
 	.my_carousel .prev_button span:after{width: 15px;bottom: -5px;}
 	.tm_testimonials .list ul li .list_inner{padding-left: 20px;padding-right: 20px;}
 	.tm_contact .mainpart .left{padding-left: 20px;padding-right: 20px;}
-	.tm_contact .extra_info .wrapper > li .list_inner{padding-left: 20px;padding-right: 20px;}
 }
 @media (max-width: 480px) {
 	.tm_testimonials .list .details{flex-direction: column;align-items: baseline;}
