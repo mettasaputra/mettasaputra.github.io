@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
-<!--<![endif]-->
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -22,9 +17,7 @@
 
 	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/plugins.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/dark.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-	<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
 	<!-- /STYLES -->
 
 </head>
@@ -38,349 +31,286 @@
 	<!-- /PRELOADER -->
 
 	<!-- WRAPPER ALL -->
-	<div class="tm_all_wrap" data-magic-cursor="">
-		<!-- If you want disable magic cursor add value "hide" -->
-
-		<!-- MODALBOX -->
-		<div class="tm_modalbox">
-			<div class="box_inner">
-				<div class="close">
-					<a href="#"><img class="svg" src="assets/img/svg/cancel.svg" alt="" /></a>
-				</div>
-				<div class="description_wrap"></div>
+	<!-- MODALBOX -->
+	<div class="tm_modalbox">
+		<div class="box_inner">
+			<div class="close">
+				<a href="#"><img class="svg" src="assets/img/svg/cancel.svg" alt="" /></a>
 			</div>
+			<div class="description_wrap"></div>
 		</div>
-		<!-- /MODALBOX -->
+	</div>
+	<!-- /MODALBOX -->
 
-		<!-- MOBILE MENU -->
-		<div class="tm_mobile_menu">
-			<div class="mobile_menu_inner">
+	<!-- MAINPART -->
+	<div class="tm_mainpart">
+
+		<!-- HERO -->
+		<div class="tm_hero" id="home">
+
+			<nav id="siteNavbar" class="site-navbar site-navbar-transparent navbar navbar-expand-lg fixed-top py-1 "
+				data-navbar-base="navbar-dark" data-navbar-toggled="navbar-light" data-navbar-scrolled="navbar-light"
+				style="background-color: #f9f9fc;">
 				<div class="container">
-					<div class="mobile_in">
-						<div class="logo">
-							<h5>Metta's Archives</h5>
-						</div>
-						<div class="my_trigger">
-							<div class="hamburger hamburger--collapse-r">
-								<div class="hamburger-box">
-									<div class="hamburger-inner"></div>
-								</div>
-							</div>
-						</div>
+					<a class="navbar-brand font-weight-bold" href="index.html">
+						Metta's Archives
+					</a>
+
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+						aria-controls="siteNavbar" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon">
+							<span></span>
+						</span>
+					</button>
+
+					<div class="navbar-collapse collapse" id="navbarCollapse">
+						<ul class="navbar-nav ml-auto font-weight-bold">
+							<li class="nav-item active">
+								<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#now">Now</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#portfolio">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contact</a>
+							</li>
+						</ul>
 					</div>
 				</div>
-			</div>
-			<div class="dropdown">
-				<div class="container">
-					<div class="dropdown_inner">
-						<ul class="anchor_nav">
-							<li><a href="#home">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#service">Now</a></li>
-							<li><a href="#portfolio">Portfolio</a></li>
-							<li><a href="#contact">Contact</a></li>
+			</nav>
+			<div class="content">
+				<div class="image">
+					<div class="main" data-img-url="assets/img/hero/2.jpg"></div>
+				</div>
+				<div class="extra">
+					<h3 class="name text-primary">Metta Saputra</h3>
+					<p class="text">Hi 👋, I’m a UI/UX Design Enthusiast!<br />&#128071; Let's get connect &#x1F447;
+					</p>
+					<div class="social">
+						<ul>
+							<li><a href="https://github.com/mettasaputra"><img class="svg custom"
+										src="assets/img/svg/social/GitHub-Mark.png" alt="" style="opacity: 50%;" /></a>
+							</li>
+							<li><a href="https://linkedin.com/in/mettasaputra"><img class="svg custom"
+										src="assets/img/svg/social/in.svg" alt="" /></a></li>
+							<li><a href="https://dribbble.com/mettasaputra"><img class="svg custom"
+										src="assets/img/svg/social/db.svg" alt="" /></a></li>
+							<li><a href="https://instagram.com/mettasaputra02"><img class="svg custom"
+										src="assets/img/svg/social/ig.jpg" alt="" style="opacity: 50%;" /></a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- /MOBILE MENU -->
+		<!-- /HERO -->
 
-		<!-- SIDEBAR -->
-		<!-- <div class="tm_sidebar">
-		<div class="sidebar_inner">
-			<div class="logo">
-				<a href="#"><img src="assets/img/logo/dark.png" alt="" /></a>
-			</div>
-			<div class="menu">
-				<ul class="anchor_nav">
-					<li>
-						<div class="list_inner current">
-							<a href="#home"><img class="svg custom" src="assets/img/svg/home.svg" alt="" />Home</a>
-						</div>
-					</li>
-					<li>
-						<div class="list_inner">
-							<a href="#about"><img class="svg custom" src="assets/img/svg/human.svg" alt="" />About</a>
-						</div>
-					</li>
-					<li>
-						<div class="list_inner">
-							<a href="#service"><img class="svg custom" src="assets/img/svg/service.svg" alt="" />Now</a>
-						</div>
-					</li>
-					<li>
-						<div class="list_inner">
-							<a href="#portfolio"><img class="svg custom" src="assets/img/svg/portfolio.svg" alt="" />Portfolio</a>
-						</div>
-					</li>
-					<li>
-						<div class="list_inner">
-							<a href="#contact"><img class="svg custom" src="assets/img/svg/contact.svg" alt="" />Contact</a>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="author">
-				<div class="inner">
-					<div class="image">
-						<div class="main" data-img-url="assets/img/about/avatar.jpg"></div>
-					</div>
-					<div class="short">
-						<h3>Metta Saputra</h3>
-						<a href="mailto:its.mettasaputra@gmail.com">its.mettasaputra@gmail.com</a>
-					</div>
+		<!-- ABOUT -->
+		<div class="tm_about" id="about">
+			<div class="container">
+				<div class="about_title">
+					<h3 class=" text-primary">About Me</h3>
 				</div>
-			</div>
-		</div>
-	</div> -->
-		<!-- /SIDEBAR -->
-
-		<!-- MAINPART -->
-		<div class="tm_mainpart">
-
-			<!-- HERO -->
-			<div class="tm_hero" id="home">
 				<div class="content">
-					<div class="image">
-						<div class="main" data-img-url="assets/img/hero/2.jpg"></div>
-					</div>
-					<div class="extra">
-						<h3 class="name">Metta Saputra</h3>
-						<p class="text">Hi 👋, I’m a UI/UX Design Enthusiast!<br />&#128071; Let's get connect &#x1F447;
+					<div class="info">
+						<h3 class="title">Hi! I'm <span>Metta</span> 👋</h3>
+						<p class="desc text-justify">
+							I'm UI/UX Designer on Full-time work, and also has some ability to code on
+							Freelance/Side-work.
+							I'm passionate about UI Design and Web Development, also I love to explore about latest
+							modern of mobile and web design. I always love to learn new knowledge and always come up
+							with innovative ideas!
 						</p>
-						<div class="social">
-							<ul>
-								<li><a href="https://github.com/mettasaputra"><img class="svg custom"
-											src="assets/img/svg/social/GitHub-Mark.png" alt=""
-											style="opacity: 50%;" /></a></li>
-								<li><a href="https://linkedin.com/in/mettasaputra"><img class="svg custom"
-											src="assets/img/svg/social/in.svg" alt="" /></a></li>
-								<li><a href="https://dribbble.com/mettasaputra"><img class="svg custom"
-											src="assets/img/svg/social/db.svg" alt="" /></a></li>
-								<li><a href="https://instagram.com/mettasaputra02"><img class="svg custom"
-											src="assets/img/svg/social/ig.jpg" alt="" style="opacity: 50%;" /></a></li>
-							</ul>
-						</div>
+						<a href="#" class=" mt-4 btn btn-sm btn-primary">My Curriculum Vitae</a>
 					</div>
 				</div>
 			</div>
-			<!-- /HERO -->
-
-			<!-- ABOUT -->
-			<div class="tm_about" id="about">
-				<div class="container">
-					<div class="about_title">
-						<h3>About Me</h3>
-					</div>
-					<div class="content">
-						<div class="info">
-							<h3 class="title">Hi! I'm <span>Metta</span> 👋</h3>
-							<p class="desc text-justify">
-								I'm UI/UX Designer on Full-time work, and also has some ability to code on
-								Freelance/Side-work.
-								I'm passionate about UI Design and Web Development, also I love to explore about latest
-								modern of mobile and web design. I always love to learn new knowledge and always come up with innovative ideas!
-
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- /ABOUT -->
-
-			<!-- NOW -->
-			<div class="tm_now" id="service">
-				<div class="container">
-					<div class="tm_title">
-						<h3>Now</h3>
-					</div>
-					<div class="my_skills">
-						<h3 class="title">💼 Careers</h3>
-						<p class="desc">I currenlty working full-time as a UI/UX Designer at TaniYuk with TaniYuk's
-							Development Team,
-							that focusing on implementing design for new feature or re-designing TaniYuk App. Also a web
-							development freelancer.</p>
-					</div>
-					<div class="my_skills">
-						<h3 class="title">🛠️ Some Software that I use in daily</h3>
-						<p class="desc">
-						<ul class="ml-4 text-left">
-							<li>UI Design : Figma, Adobe Photoshop</li>
-							<li>Code Editor : VSCode</li>
-							<li>Database GUI : PhpMyAdmin</li>
-							<li>Browsers : Google Chrome, Microsoft Edge</li>
-							<li>Others : Github, Dribbble, Resso</li>
-						</ul>
-						</p>
-					</div>
-					<div class="my_skills">
-						<h3 class="title">💡 What is my skill level?</h3>
-						<p class="desc">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="dodo_progress">
-									<div class="progress_inner" data-value="65">
-										<span class="label">PHP Codeigniter</span>
-										<div class="background">
-											<div class="bar">
-												<div class="bar_in"></div>
-											</div>
-										</div>
-									</div>
-									<div class="progress_inner" data-value="90">
-										<span class="label">HTML/CSS</span>
-										<div class="background">
-											<div class="bar">
-												<div class="bar_in"></div>
-											</div>
-										</div>
-									</div>
-									<div class="progress_inner" data-value="60">
-										<span class="label">MySql</span>
-										<div class="background">
-											<div class="bar">
-												<div class="bar_in"></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="dodo_progress">
-									<div class="progress_inner" data-value="80">
-										<span class="label">UI Design</span>
-										<div class="background">
-											<div class="bar">
-												<div class="bar_in"></div>
-											</div>
-										</div>
-									</div>
-									<div class="progress_inner" data-value="55">
-										<span class="label">Graphic Design</span>
-										<div class="background">
-											<div class="bar">
-												<div class="bar_in"></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						</p>
-
-					</div>
-				</div>
-			</div>
-			<!-- /NOW -->
-
-			<!-- PORTFOLIO -->
-			<div class="tm_portfolio" id="portfolio">
-				<div class="container">
-					<div class="tm_title">
-						<h3>Portfolio</h3>
-						<p>Coming soon.</p>
-					</div>
-					<div class="portfolio_inner wow fadeInLeft" data-wow-duration="1s">
-						<div class="my_carousel gallery_zoom">
-							<ul class="owl-carousel">
-								<li>
-									<div class="list_inner">
-										<div class="image">
-											<img src="assets/img/thumbs/1-1.jpg" alt="" />
-											<div class="main" data-img-url="assets/img/portfolio/1.jpg"></div>
-										</div>
-										<div class="details">
-											<h3><a href="#">Chul Urina</a></h3>
-											<span><a href="#">Vimeo</a></span>
-										</div>
-										<a class="tm_full_link popup-vimeo" href="https://vimeo.com/312334044"></a>
-									</div>
-								</li>
-								<li>
-									<div class="list_inner">
-										<div class="image">
-											<img src="assets/img/thumbs/1-1.jpg" alt="" />
-											<div class="main" data-img-url="assets/img/portfolio/2.jpg"></div>
-										</div>
-										<div class="details">
-											<h3><a href="#">Sutki Vorta</a></h3>
-											<span><a href="#">Youtube</a></span>
-										</div>
-										<a class="tm_full_link popup-youtube"
-											href="https://www.youtube.com/watch?v=Amq-qlqbjYA"></a>
-									</div>
-								</li>
-								<li>
-									<div class="list_inner">
-										<div class="image">
-											<img src="assets/img/thumbs/1-1.jpg" alt="" />
-											<div class="main" data-img-url="assets/img/portfolio/3.jpg"></div>
-										</div>
-										<div class="details">
-											<h3><a href="#">Murir Moya</a></h3>
-											<span><a href="#">Soundcloud</a></span>
-										</div>
-										<a class="tm_full_link soundcloude_link mfp-iframe audio"
-											href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/252739311&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></a>
-									</div>
-								</li>
-								<li>
-									<div class="list_inner">
-										<div class="image">
-											<img src="assets/img/thumbs/1-1.jpg" alt="" />
-											<div class="main" data-img-url="assets/img/portfolio/4.jpg"></div>
-										</div>
-										<div class="details">
-											<h3><a href="#">Ave Smith</a></h3>
-											<span><a href="#">Image</a></span>
-										</div>
-										<a class="tm_full_link zoom" href="assets/img/portfolio/4.jpg"></a>
-									</div>
-								</li>
-								<li>
-									<div class="list_inner">
-										<div class="image">
-											<img src="assets/img/thumbs/1-1.jpg" alt="" />
-											<div class="main" data-img-url="assets/img/portfolio/5.jpg"></div>
-										</div>
-										<div class="details">
-											<h3><a href="#">Duru Sweet</a></h3>
-											<span><a href="#">Image</a></span>
-										</div>
-										<a class="tm_full_link zoom" href="assets/img/portfolio/5.jpg"></a>
-									</div>
-								</li>
-							</ul>
-							<a class="prev_button" href="#"><span></span></a>
-							<a class="next_button" href="#"><span></span></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- PORTFOLIO -->
-
-
-			<!-- CONTACT -->
-			<div class="tm_contact" id="contact">
-				<div class="container">
-					<div class="tm_title">
-						<h3>Contact</h3>
-						<p>For any collaboration or work, please don't hesitate to contact me!😁 <br/>
-							<a class="text-decoration-none text-dark " href="mailto:its.mettasaputra@gmail.com">
-								<img class="svg custom" src="assets/img/svg/social/color/gmail.png" alt="" style="width: 20px; height:auto" /> its.mettasaputra@gmail.com</a>
-								<br/>
-							<a class="text-decoration-none text-dark " href="https://instagram.com/mettasaputra02">
-								<img class="svg custom" src="assets/img/svg/social/color/ig.png" alt="" style="width: 20px; height:auto" /> mettasaputra02</a>
-							</p>
-					</div>
-
-				</div>
-			</div>
-			<!-- /CONTACT -->
-
 		</div>
-		<!-- /MAINPART -->
+		<!-- /ABOUT -->
+
+		<!-- NOW -->
+		<div class="tm_now" id="now">
+			<div class="container">
+				<div class="tm_title">
+					<h3 class=" text-primary">Now</h3>
+				</div>
+				<div class="my_skills">
+					<h3 class="title">💼 Careers</h3>
+					<p class="desc">I currenlty working full-time as a UI/UX Designer at TaniYuk with TaniYuk's
+						Development Team,
+						that focusing on implementing design for new feature or re-designing TaniYuk App. Also a web
+						development freelancer.</p>
+				</div>
+				<div class="my_skills">
+					<h3 class="title">🛠️ Some Software that I use in daily</h3>
+					<p class="desc">
+					<ul class="ml-4 text-left">
+						<li>UI Design : Figma, Adobe Photoshop</li>
+						<li>Code Editor : VSCode</li>
+						<li>Database GUI : PhpMyAdmin</li>
+						<li>Browsers : Google Chrome, Microsoft Edge</li>
+						<li>Others : Github, Dribbble, Resso</li>
+					</ul>
+					</p>
+				</div>
+				<div class="my_skills">
+					<h3 class="title">💡 What is my skill level?</h3>
+					<p class="desc">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="dodo_progress">
+								<div class="progress_inner" data-value="65">
+									<span class="label">PHP Codeigniter</span>
+									<div class="background">
+										<div class="bar">
+											<div class="bar_in"></div>
+										</div>
+									</div>
+								</div>
+								<div class="progress_inner" data-value="90">
+									<span class="label">HTML/CSS</span>
+									<div class="background">
+										<div class="bar">
+											<div class="bar_in"></div>
+										</div>
+									</div>
+								</div>
+								<div class="progress_inner" data-value="60">
+									<span class="label">MySql</span>
+									<div class="background">
+										<div class="bar">
+											<div class="bar_in"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="dodo_progress">
+								<div class="progress_inner" data-value="80">
+									<span class="label">UI Design</span>
+									<div class="background">
+										<div class="bar">
+											<div class="bar_in"></div>
+										</div>
+									</div>
+								</div>
+								<div class="progress_inner" data-value="55">
+									<span class="label">Graphic Design</span>
+									<div class="background">
+										<div class="bar">
+											<div class="bar_in"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</p>
+
+				</div>
+			</div>
+		</div>
+		<!-- /NOW -->
+
+		<!-- PORTFOLIO -->
+		<div class="tm_portfolio" id="portfolio">
+			<div class="container">
+				<div class="tm_title">
+					<h3 class=" text-primary">Portfolio</h3>
+					<p>Coming soon.</p>
+				</div>
+				<div class="portfolio_inner wow fadeInLeft" data-wow-duration="1s">
+					<div class="my_carousel gallery_zoom">
+						<ul class="owl-carousel">
+							<li>
+								<div class="list_inner">
+									<div class="image">
+										<img src="assets/img/thumbs/1-1.jpg" alt="" />
+										<div class="main" data-img-url="assets/img/portfolio/1.jpg"></div>
+									</div>
+									<div class="details">
+										<h3><a href="#">Healthcare App</a></h3>
+										<span><a href="#">UI Design</a></span>
+									</div>
+									<a class="tm_full_link popup-vimeo" href="https://vimeo.com/312334044"></a>
+								</div>
+							</li>
+							<li>
+								<div class="list_inner">
+									<div class="image">
+										<img src="assets/img/thumbs/1-1.jpg" alt="" />
+										<div class="main" data-img-url="assets/img/portfolio/1.jpg"></div>
+									</div>
+									<div class="details">
+										<h3><a href="#">Healthcare App</a></h3>
+										<span><a href="#">UI Design</a></span>
+									</div>
+									<a class="tm_full_link popup-vimeo" href="https://vimeo.com/312334044"></a>
+								</div>
+							</li>
+							<li>
+								<div class="list_inner">
+									<div class="image">
+										<img src="assets/img/thumbs/1-1.jpg" alt="" />
+										<div class="main" data-img-url="assets/img/portfolio/1.jpg"></div>
+									</div>
+									<div class="details">
+										<h3><a href="#">Healthcare App</a></h3>
+										<span><a href="#">UI Design</a></span>
+									</div>
+									<a class="tm_full_link popup-vimeo" href="https://vimeo.com/312334044"></a>
+								</div>
+							</li>
+							<li>
+								<div class="list_inner">
+									<div class="image">
+										<img src="assets/img/thumbs/1-1.jpg" alt="" />
+										<div class="main" data-img-url="assets/img/portfolio/1.jpg"></div>
+									</div>
+									<div class="details">
+										<h3><a href="#">Healthcare App</a></h3>
+										<span><a href="#">UI Design</a></span>
+									</div>
+									<a class="tm_full_link popup-vimeo" href="https://vimeo.com/312334044"></a>
+								</div>
+							</li>
+						</ul>
+						<a class="prev_button" href="#"><span></span></a>
+						<a class="next_button" href="#"><span></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- PORTFOLIO -->
+
+		<!-- CONTACT -->
+		<div class="tm_contact" id="contact">
+			<div class="container">
+				<div class="tm_title">
+					<h3 class=" text-primary">Contact</h3>
+					<p>For any collaboration or work, please don't hesitate to contact me!😁 <br />
+						<a class="text-decoration-none text-dark " href="mailto:its.mettasaputra@gmail.com">
+							<img class="svg custom" src="assets/img/svg/social/color/gmail.png" alt=""
+								style="width: 20px; height:auto" /> its.mettasaputra@gmail.com</a>
+						<br />
+						<a class="text-decoration-none text-dark " href="https://instagram.com/mettasaputra02">
+							<img class="svg custom" src="assets/img/svg/social/color/ig.png" alt=""
+								style="width: 20px; height:auto" /> mettasaputra02</a>
+					</p>
+				</div>
+
+			</div>
+		</div>
+		<!-- /CONTACT -->
+
+	</div>
+	<!-- /MAINPART -->
 
 	</div>
 	<!-- / WRAPPER ALL -->
@@ -388,9 +318,9 @@
 	<!-- SCRIPTS -->
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-	<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
 	<script src="assets/js/plugins.js"></script>
 	<script src="assets/js/init.js"></script>
+
 	<!-- /SCRIPTS -->
 
 </body>
